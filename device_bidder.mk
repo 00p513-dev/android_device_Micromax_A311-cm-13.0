@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product-if-exists, vendor/Micromax/A311/A311-vendor.mk)
 
-LOCAL_PATH := device/Micromax/A311
+LOCAL_PATH := device/estar/bidder
 
 PRODUCT_CHARACTERISTICS := default
 
@@ -155,12 +155,12 @@ PRODUCT_PROPERTY_OVERRIDES := \
 	persist.service.debuggable=1 \
 	persist.mtk.wcn.combo.chipid=-1
 
-PRODUCT_NAME := full_A311
-PRODUCT_DEVICE := A311
+PRODUCT_NAME := full_bidder
+PRODUCT_DEVICE := EStar Takee 1
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_PACKAGES += \
     librs_jni \
